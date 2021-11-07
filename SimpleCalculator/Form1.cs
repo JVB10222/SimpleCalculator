@@ -12,171 +12,66 @@ namespace SimpleCalculator
 {
     public partial class simpleCalculator : Form
     { 
-        string first = "";
-        string second = "";
-        char function;
-        double result = 0.0;
-        string userInput = "";
+        Double resultValue = 0;
+        string operatorClicked = "";
+        bool isOperatorClicked = false;
+        public void PerformClick();
+
 
         public simpleCalculator()
         {
             InitializeComponent();
         }
 
-        private void num1_Click(object sender, EventArgs e)
+        private void numClick(object sender, EventArgs e)
         {
-            numDisplay.Text = "";
+            if (numDisplay.Text == "0" || (isOperatorClicked))
+            {
+                numDisplay.Clear();
+            }
+            Button button = (Button)sender;
+            isOperatorClicked = false;
+            if (button.Text == ".")
+            {
+                if (!numDisplay.Text.Contains("."))
+                {
+                    numDisplay.Text = numDisplay.Text + button.Text;
+                }
+            }
+            else
+            {
+                numDisplay.Text = numDisplay.Text + button.Text;
+            }
 
-            userInput += "1";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num2_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "2";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num3_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "3";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num4_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "4";
-            numDisplay.Text += userInput;
-        }
-
-        private void num5_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "5";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num6_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "6";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num7_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "7";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num8_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "8";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num9_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "9";
-
-            numDisplay.Text += userInput;
-        }
-
-        private void num0_Click(object sender, EventArgs e)
-        {
-            numDisplay.Text = "";
-            userInput += "0";
-
-            numDisplay.Text += userInput;
         }
 
         private void butDecimal_Click(object sender, EventArgs e)
         {
             numDisplay.Text += ".";
         }
-
-        private void butEqual_Click(object sender, EventArgs e)
+        
+        private void operatorClick(object sender, EventArgs e)
         {
-            second = userInput;
-            double firstNum, secondNum;
-            firstNum = Convert.ToDouble(first);
-            secondNum = Convert.ToDouble(second);
-            //Plus
-            if (function == '+')
+            Button button = (Button)sender;
+            operatorClicked = button.Text;
+            resultValue = Double.Parse(numDisplay.Text);
+            if (resultValue != 0)
             {
-                result = firstNum + secondNum;
-                numDisplay.Text = result.ToString();
-
+                operatorEqualClick.PerformClick();
+                operatorClicked = button.Text;
+                isOperatorClicked = true;
             }
-            //Minus
-            else if (function == '-')
+            else
             {
-                result = firstNum - secondNum;
-                numDisplay.Text = result.ToString();
-            }
-            //Divide
-            else if (function == '/')
-            {
-                if (secondNum == '0')
-                {
-                    numDisplay.Text = "Nah";
-                }
-                else
-                {
-                    result = firstNum / secondNum;
-
-                    numDisplay.Text = result.ToString();
-                }
-            }
-            //Multiply
-            else if (function == '*')
-            {
-                result = firstNum * secondNum;
-                numDisplay.Text = result.ToString();
+                operatorClicked = button.Text;
+                resultValue = Double.Parse(numDisplay.Text);
+                isOperatorClicked = true;
             }
 
-        }
+            operatorClicked = button.Text;
+            resultValue = Double.Parse(numDisplay.Text);
+        
 
-        private void butPlus_Click(object sender, EventArgs e)
-        {
-
-            function = '+';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void butMinus_Click(object sender, EventArgs e)
-        {
-            function = '-';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void butMultiply_Click(object sender, EventArgs e)
-        {
-            function = '*';
-            first = userInput;
-            userInput = "";
-        }
-
-        private void butDivide_Click(object sender, EventArgs e)
-        {
-            function = '/';
-            first = userInput;
-            userInput = "";
         }
 
         private void butBackSpace_Click(object sender, EventArgs e)
@@ -186,17 +81,35 @@ namespace SimpleCalculator
 
         private void butClear_Click(object sender, EventArgs e)
         {
-            first = "";
-            second = "";
-            userInput = "";
-            result = 0.0;
             numDisplay.Text = "0";
-
+            resultValue = 0;
         }
 
         private void butPercent_Click(object sender, EventArgs e)
         {
             numDisplay.Text += "%";
         }
+
+        public void operatorEqualClick(object sender, EventArgs e)
+        {
+            switch (operatorClicked)
+            {
+                case "+":
+                    numDisplay.Text = (resultValue + Double.Parse(numDisplay.Text)).ToString();
+                    break;
+                case "-":
+                    numDisplay.Text = (resultValue - Double.Parse(numDisplay.Text)).ToString();
+                    break;
+                case "*":
+                    numDisplay.Text = (resultValue * Double.Parse(numDisplay.Text)).ToString();
+                    break;
+                case "/":
+                    numDisplay.Text = (resultValue / Double.Parse(numDisplay.Text)).ToString();
+                    break;
+                default:
+                    break;
+            }
+        }
+
     }
 }
