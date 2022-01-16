@@ -111,5 +111,9 @@ namespace SimpleCalculator
             }
         }
 
+        private void simpleCalculator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
