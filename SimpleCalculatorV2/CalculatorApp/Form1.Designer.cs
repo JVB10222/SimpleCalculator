@@ -54,11 +54,12 @@
             // plusMinusButton
             // 
             this.plusMinusButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plusMinusButton.Location = new System.Drawing.Point(11, 372);
-            this.plusMinusButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.plusMinusButton.Location = new System.Drawing.Point(15, 458);
+            this.plusMinusButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plusMinusButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.plusMinusButton.Name = "plusMinusButton";
             this.plusMinusButton.Padding = new System.Windows.Forms.Padding(1);
-            this.plusMinusButton.Size = new System.Drawing.Size(80, 50);
+            this.plusMinusButton.Size = new System.Drawing.Size(107, 62);
             this.plusMinusButton.TabIndex = 0;
             this.plusMinusButton.Text = "+/-";
             this.plusMinusButton.UseVisualStyleBackColor = true;
@@ -67,11 +68,12 @@
             // equalButton
             // 
             this.equalButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.equalButton.Location = new System.Drawing.Point(292, 372);
-            this.equalButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.equalButton.Location = new System.Drawing.Point(389, 458);
+            this.equalButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.equalButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.equalButton.Name = "equalButton";
             this.equalButton.Padding = new System.Windows.Forms.Padding(1);
-            this.equalButton.Size = new System.Drawing.Size(80, 50);
+            this.equalButton.Size = new System.Drawing.Size(107, 62);
             this.equalButton.TabIndex = 1;
             this.equalButton.Text = "=";
             this.equalButton.UseVisualStyleBackColor = true;
@@ -80,11 +82,12 @@
             // decimalButton
             // 
             this.decimalButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.decimalButton.Location = new System.Drawing.Point(195, 372);
-            this.decimalButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.decimalButton.Location = new System.Drawing.Point(260, 458);
+            this.decimalButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.decimalButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.decimalButton.Name = "decimalButton";
             this.decimalButton.Padding = new System.Windows.Forms.Padding(1);
-            this.decimalButton.Size = new System.Drawing.Size(80, 50);
+            this.decimalButton.Size = new System.Drawing.Size(107, 62);
             this.decimalButton.TabIndex = 2;
             this.decimalButton.Text = ".";
             this.decimalButton.UseVisualStyleBackColor = true;
@@ -93,11 +96,12 @@
             // zeroButton
             // 
             this.zeroButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.zeroButton.Location = new System.Drawing.Point(101, 372);
-            this.zeroButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.zeroButton.Location = new System.Drawing.Point(135, 458);
+            this.zeroButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.zeroButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.zeroButton.Name = "zeroButton";
             this.zeroButton.Padding = new System.Windows.Forms.Padding(1);
-            this.zeroButton.Size = new System.Drawing.Size(80, 50);
+            this.zeroButton.Size = new System.Drawing.Size(107, 62);
             this.zeroButton.TabIndex = 3;
             this.zeroButton.Text = "0";
             this.zeroButton.UseVisualStyleBackColor = true;
@@ -106,11 +110,12 @@
             // twoButton
             // 
             this.twoButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.twoButton.Location = new System.Drawing.Point(101, 306);
-            this.twoButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.twoButton.Location = new System.Drawing.Point(135, 377);
+            this.twoButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.twoButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.twoButton.Name = "twoButton";
             this.twoButton.Padding = new System.Windows.Forms.Padding(1);
-            this.twoButton.Size = new System.Drawing.Size(80, 50);
+            this.twoButton.Size = new System.Drawing.Size(107, 62);
             this.twoButton.TabIndex = 7;
             this.twoButton.Text = "2";
             this.twoButton.UseVisualStyleBackColor = true;
@@ -119,11 +124,12 @@
             // threeButton
             // 
             this.threeButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.threeButton.Location = new System.Drawing.Point(195, 306);
-            this.threeButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.threeButton.Location = new System.Drawing.Point(260, 377);
+            this.threeButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.threeButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.threeButton.Name = "threeButton";
             this.threeButton.Padding = new System.Windows.Forms.Padding(1);
-            this.threeButton.Size = new System.Drawing.Size(80, 50);
+            this.threeButton.Size = new System.Drawing.Size(107, 62);
             this.threeButton.TabIndex = 6;
             this.threeButton.Text = "3";
             this.threeButton.UseVisualStyleBackColor = true;
@@ -132,11 +138,12 @@
             // plusButton
             // 
             this.plusButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plusButton.Location = new System.Drawing.Point(292, 306);
-            this.plusButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.plusButton.Location = new System.Drawing.Point(389, 377);
+            this.plusButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.plusButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.plusButton.Name = "plusButton";
             this.plusButton.Padding = new System.Windows.Forms.Padding(1);
-            this.plusButton.Size = new System.Drawing.Size(80, 50);
+            this.plusButton.Size = new System.Drawing.Size(107, 62);
             this.plusButton.TabIndex = 5;
             this.plusButton.Text = "+";
             this.plusButton.UseVisualStyleBackColor = true;
@@ -145,11 +152,12 @@
             // oneButton
             // 
             this.oneButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.oneButton.Location = new System.Drawing.Point(11, 306);
-            this.oneButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.oneButton.Location = new System.Drawing.Point(15, 377);
+            this.oneButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.oneButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.oneButton.Name = "oneButton";
             this.oneButton.Padding = new System.Windows.Forms.Padding(1);
-            this.oneButton.Size = new System.Drawing.Size(80, 50);
+            this.oneButton.Size = new System.Drawing.Size(107, 62);
             this.oneButton.TabIndex = 4;
             this.oneButton.Text = "1";
             this.oneButton.UseVisualStyleBackColor = true;
@@ -158,11 +166,12 @@
             // fiveButton
             // 
             this.fiveButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fiveButton.Location = new System.Drawing.Point(101, 240);
-            this.fiveButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.fiveButton.Location = new System.Drawing.Point(135, 295);
+            this.fiveButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fiveButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.fiveButton.Name = "fiveButton";
             this.fiveButton.Padding = new System.Windows.Forms.Padding(1);
-            this.fiveButton.Size = new System.Drawing.Size(80, 50);
+            this.fiveButton.Size = new System.Drawing.Size(107, 62);
             this.fiveButton.TabIndex = 11;
             this.fiveButton.Text = "5";
             this.fiveButton.UseVisualStyleBackColor = true;
@@ -171,11 +180,12 @@
             // sixButton
             // 
             this.sixButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sixButton.Location = new System.Drawing.Point(195, 240);
-            this.sixButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.sixButton.Location = new System.Drawing.Point(260, 295);
+            this.sixButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sixButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.sixButton.Name = "sixButton";
             this.sixButton.Padding = new System.Windows.Forms.Padding(1);
-            this.sixButton.Size = new System.Drawing.Size(80, 50);
+            this.sixButton.Size = new System.Drawing.Size(107, 62);
             this.sixButton.TabIndex = 10;
             this.sixButton.Text = "6";
             this.sixButton.UseVisualStyleBackColor = true;
@@ -184,11 +194,12 @@
             // minusButton
             // 
             this.minusButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minusButton.Location = new System.Drawing.Point(292, 240);
-            this.minusButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.minusButton.Location = new System.Drawing.Point(389, 295);
+            this.minusButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.minusButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.minusButton.Name = "minusButton";
             this.minusButton.Padding = new System.Windows.Forms.Padding(1);
-            this.minusButton.Size = new System.Drawing.Size(80, 50);
+            this.minusButton.Size = new System.Drawing.Size(107, 62);
             this.minusButton.TabIndex = 9;
             this.minusButton.Text = "-";
             this.minusButton.UseVisualStyleBackColor = true;
@@ -197,11 +208,12 @@
             // fourButton
             // 
             this.fourButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fourButton.Location = new System.Drawing.Point(11, 240);
-            this.fourButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.fourButton.Location = new System.Drawing.Point(15, 295);
+            this.fourButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.fourButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.fourButton.Name = "fourButton";
             this.fourButton.Padding = new System.Windows.Forms.Padding(1);
-            this.fourButton.Size = new System.Drawing.Size(80, 50);
+            this.fourButton.Size = new System.Drawing.Size(107, 62);
             this.fourButton.TabIndex = 8;
             this.fourButton.Text = "4";
             this.fourButton.UseVisualStyleBackColor = true;
@@ -210,11 +222,12 @@
             // eightButton
             // 
             this.eightButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.eightButton.Location = new System.Drawing.Point(101, 174);
-            this.eightButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.eightButton.Location = new System.Drawing.Point(135, 214);
+            this.eightButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.eightButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.eightButton.Name = "eightButton";
             this.eightButton.Padding = new System.Windows.Forms.Padding(1);
-            this.eightButton.Size = new System.Drawing.Size(80, 50);
+            this.eightButton.Size = new System.Drawing.Size(107, 62);
             this.eightButton.TabIndex = 15;
             this.eightButton.Text = "8";
             this.eightButton.UseVisualStyleBackColor = true;
@@ -223,11 +236,12 @@
             // nineButton
             // 
             this.nineButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nineButton.Location = new System.Drawing.Point(195, 174);
-            this.nineButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.nineButton.Location = new System.Drawing.Point(260, 214);
+            this.nineButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.nineButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.nineButton.Name = "nineButton";
             this.nineButton.Padding = new System.Windows.Forms.Padding(1);
-            this.nineButton.Size = new System.Drawing.Size(80, 50);
+            this.nineButton.Size = new System.Drawing.Size(107, 62);
             this.nineButton.TabIndex = 14;
             this.nineButton.Text = "9";
             this.nineButton.UseVisualStyleBackColor = true;
@@ -236,11 +250,12 @@
             // divideButton
             // 
             this.divideButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.divideButton.Location = new System.Drawing.Point(292, 174);
-            this.divideButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.divideButton.Location = new System.Drawing.Point(389, 214);
+            this.divideButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.divideButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.divideButton.Name = "divideButton";
             this.divideButton.Padding = new System.Windows.Forms.Padding(1);
-            this.divideButton.Size = new System.Drawing.Size(80, 50);
+            this.divideButton.Size = new System.Drawing.Size(107, 62);
             this.divideButton.TabIndex = 13;
             this.divideButton.Text = "÷";
             this.divideButton.UseVisualStyleBackColor = true;
@@ -249,11 +264,12 @@
             // sevenButton
             // 
             this.sevenButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sevenButton.Location = new System.Drawing.Point(11, 174);
-            this.sevenButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.sevenButton.Location = new System.Drawing.Point(15, 214);
+            this.sevenButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.sevenButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.sevenButton.Name = "sevenButton";
             this.sevenButton.Padding = new System.Windows.Forms.Padding(1);
-            this.sevenButton.Size = new System.Drawing.Size(80, 50);
+            this.sevenButton.Size = new System.Drawing.Size(107, 62);
             this.sevenButton.TabIndex = 12;
             this.sevenButton.Text = "7";
             this.sevenButton.UseVisualStyleBackColor = true;
@@ -262,11 +278,12 @@
             // clearButton
             // 
             this.clearButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.clearButton.Location = new System.Drawing.Point(101, 108);
-            this.clearButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.clearButton.Location = new System.Drawing.Point(135, 133);
+            this.clearButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.clearButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.clearButton.Name = "clearButton";
             this.clearButton.Padding = new System.Windows.Forms.Padding(1);
-            this.clearButton.Size = new System.Drawing.Size(80, 50);
+            this.clearButton.Size = new System.Drawing.Size(107, 62);
             this.clearButton.TabIndex = 19;
             this.clearButton.Text = "C";
             this.clearButton.UseVisualStyleBackColor = true;
@@ -275,11 +292,12 @@
             // backspaceButton
             // 
             this.backspaceButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.backspaceButton.Location = new System.Drawing.Point(195, 108);
-            this.backspaceButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.backspaceButton.Location = new System.Drawing.Point(260, 133);
+            this.backspaceButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.backspaceButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.backspaceButton.Name = "backspaceButton";
             this.backspaceButton.Padding = new System.Windows.Forms.Padding(1);
-            this.backspaceButton.Size = new System.Drawing.Size(80, 50);
+            this.backspaceButton.Size = new System.Drawing.Size(107, 62);
             this.backspaceButton.TabIndex = 18;
             this.backspaceButton.Text = "←";
             this.backspaceButton.UseVisualStyleBackColor = true;
@@ -288,11 +306,12 @@
             // multiplyButton
             // 
             this.multiplyButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.multiplyButton.Location = new System.Drawing.Point(292, 108);
-            this.multiplyButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.multiplyButton.Location = new System.Drawing.Point(389, 133);
+            this.multiplyButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.multiplyButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.multiplyButton.Name = "multiplyButton";
             this.multiplyButton.Padding = new System.Windows.Forms.Padding(1);
-            this.multiplyButton.Size = new System.Drawing.Size(80, 50);
+            this.multiplyButton.Size = new System.Drawing.Size(107, 62);
             this.multiplyButton.TabIndex = 17;
             this.multiplyButton.Text = "X";
             this.multiplyButton.UseVisualStyleBackColor = true;
@@ -301,11 +320,12 @@
             // squareRootButton
             // 
             this.squareRootButton.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.squareRootButton.Location = new System.Drawing.Point(11, 108);
-            this.squareRootButton.MinimumSize = new System.Drawing.Size(80, 50);
+            this.squareRootButton.Location = new System.Drawing.Point(15, 133);
+            this.squareRootButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.squareRootButton.MinimumSize = new System.Drawing.Size(107, 62);
             this.squareRootButton.Name = "squareRootButton";
             this.squareRootButton.Padding = new System.Windows.Forms.Padding(1);
-            this.squareRootButton.Size = new System.Drawing.Size(80, 50);
+            this.squareRootButton.Size = new System.Drawing.Size(107, 62);
             this.squareRootButton.TabIndex = 16;
             this.squareRootButton.Text = "√x";
             this.squareRootButton.UseVisualStyleBackColor = true;
@@ -316,19 +336,20 @@
             this.displayLabel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.displayLabel.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.displayLabel.ForeColor = System.Drawing.Color.PaleTurquoise;
-            this.displayLabel.Location = new System.Drawing.Point(12, 9);
-            this.displayLabel.MinimumSize = new System.Drawing.Size(360, 90);
+            this.displayLabel.Location = new System.Drawing.Point(16, 11);
+            this.displayLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.displayLabel.MinimumSize = new System.Drawing.Size(480, 111);
             this.displayLabel.Name = "displayLabel";
-            this.displayLabel.Size = new System.Drawing.Size(360, 90);
+            this.displayLabel.Size = new System.Drawing.Size(480, 111);
             this.displayLabel.TabIndex = 20;
             this.displayLabel.Text = "0";
             this.displayLabel.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // CalculatorV1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(383, 431);
+            this.ClientSize = new System.Drawing.Size(511, 530);
             this.Controls.Add(this.displayLabel);
             this.Controls.Add(this.clearButton);
             this.Controls.Add(this.backspaceButton);
@@ -350,11 +371,13 @@
             this.Controls.Add(this.decimalButton);
             this.Controls.Add(this.equalButton);
             this.Controls.Add(this.plusMinusButton);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(399, 470);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.MinimumSize = new System.Drawing.Size(526, 568);
             this.Name = "CalculatorV1";
             this.Text = "Calculator";
             this.Load += new System.EventHandler(this.CalculatorV1_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.CalculatorV1_KeyDown);
+            this.KeyUp += new System.Windows.Forms.KeyEventHandler(this.CalculatorV1_KeyUp);
             this.Resize += new System.EventHandler(this.CalculatorV1_Resize);
             this.ResumeLayout(false);
 
